@@ -14,7 +14,7 @@ export async function POST(request: Request) {
   const userId = body?.userId;
 
   if (!userId) {
-    return Response.error();
+    return NextResponse.error();
   }
 
   const token = serverClient.createToken(userId);
@@ -24,7 +24,7 @@ export async function POST(request: Request) {
     token: token,
   };
 
-  return Response.json(response);
+  return NextResponse.json(response);
 }
 
 

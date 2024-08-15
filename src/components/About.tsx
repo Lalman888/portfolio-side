@@ -76,7 +76,7 @@ export default function About() {
           user-friendly web applications.
         </Paragraph>
         <Paragraph className="mt-4">
-          My journey in tech began with building the "Visit India" website, a
+          My journey in tech began with building the {"Visit India"} website, a
           project inspired by my love for my country and a desire to showcase
           its beauty. This project marked the start of my development career and
           fueled my passion for creating impactful digital experiences.
