@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Heading } from "./Heading";
 import { Product } from "@/types/products";
 import { products } from "@/constants/products";
@@ -7,12 +7,26 @@ import Link from "next/link";
 import Image from "next/image";
 import { Paragraph } from "./Paragraph";
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 export const Products = () => {
+   const pathname = usePathname();
+   const [updatedProducts, setUpdatedProducts] = useState<any[]>([]);
+
+   useEffect(() => {
+      // console.log(pathname);
+      if(pathname === "/") {
+          setUpdatedProducts(
+            products.slice(products.length - 3, products.length)
+          );
+      } else {
+          setUpdatedProducts(products);
+      }
+    }, [pathname]);
   return (
     <div>
       <div className="grid grid-cols-1  gap-10">
-        {products.map((product: Product, idx: number) => (
+        {updatedProducts.map((product: Product, idx: number) => (
           <motion.div
             key={product.href}
             initial={{
