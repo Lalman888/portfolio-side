@@ -56,9 +56,13 @@ export const TechStack = () => {
     {
       title: "Vercel",
       src: "/images/logos/vercel.png",
-
       className: "h-10 w-24",
     },
+    {
+      title: "React Native",
+      src:"/images/logos/react-native-1.svg",
+      className: "h-14 w-20",
+    }
   ];
   return (
     <div>

@@ -49,7 +49,7 @@ export const Products = () => {
                 alt="thumbnail"
                 height="200"
                 width="200"
-                className="rounded-md"
+                className="rounded-md max-h-[200px] object-contain "
               />
               <div className="flex flex-col justify-between">
                 <div>

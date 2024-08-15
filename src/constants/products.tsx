@@ -22,6 +22,28 @@ export const products = [
     ),
   },
   {
+    href: "https://voice-ai-d-ly7dzrkywq-ue.a.run.app",
+    title: "Insurance Chatbot",
+    description:
+      "Insurance Chatbot is a conversational AI tool that helps insurance companies automate customer interactions, streamline claims processing, and improve customer satisfaction.",
+    thumbnail: "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app.png",
+    images: [
+      "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app.png",
+      "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app-2.png",
+    ],
+    stack: ["Nextjs", "Tailwindcss", "Part-Time Project", "Google Cloud"],
+    slug: "insurance-chatbot",
+    content: (
+      <div>
+        <p>
+          Insurance Chatbot is a conversational AI tool that helps insurance
+          companies automate customer interactions, streamline claims
+          processing, and improve customer satisfaction.
+        </p>
+      </div>
+    ),
+  },
+  {
     href: "http://www.cotton2catwalk.com/",
     title: "Cotton 2 Catwalk",
     description:
@@ -94,23 +116,24 @@ export const products = [
   },
   
   {
-    href: "https://voice-ai-d-ly7dzrkywq-ue.a.run.app",
-    title: "Insurance Chatbot",
+    href: "#",
+    title: "Visaexpert",
     description:
-      "Insurance Chatbot is a conversational AI tool that helps insurance companies automate customer interactions, streamline claims processing, and improve customer satisfaction.",
-    thumbnail: "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app.png",
+      "Visaexpert is a platform that connects travelers with visa experts for personalized visa assistance. Our mission is to simplify the visa application process and help travelers navigate the complexities of international travel.",
+    thumbnail: "/images/Visaexpert-1.jpeg",
     images: [
-      "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app.png",
-      "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app-2.png",
+      "/images/Visaexpert-1.jpeg",
+      "/images/Visaexpert-2.jpeg",
     ],
-    stack: ["Nextjs", "Tailwindcss", "Part-Time Project", "Google Cloud"],
-    slug: "insurance-chatbot",
+    stack: ["React-Native","Firebase","Part-Time Project","Android App"],
+    slug: "visaexpert",
     content: (
       <div>
         <p>
-          Insurance Chatbot is a conversational AI tool that helps insurance
-          companies automate customer interactions, streamline claims
-          processing, and improve customer satisfaction.
+          Visaexpert is a platform that connects travelers with visa experts for
+          personalized visa assistance. Our mission is to simplify the visa
+          application process and help travelers navigate the complexities of
+          international travel.
         </p>
       </div>
     ),
