@@ -1,6 +1,6 @@
 export const products = [
   {
-    href: "https://www.talkhealth.ai/main",
+    href: "https://www.talkhealth.ai",
     title: "Talk Health AI",
     description:
       "Talk Health AI is a platform that connects patients with healthcare providers for virtual consultations. Our mission is to make healthcare accessible to everyone, anytime, anywhere.",
