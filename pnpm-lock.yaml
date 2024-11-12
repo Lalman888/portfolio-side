@@ -29,6 +29,9 @@ dependencies:
   '@types/react-dom':
     specifier: 18.2.7
     version: 18.2.7
+  '@vercel/analytics':
+    specifier: ^1.3.2
+    version: 1.3.2(next@13.4.19)(react@18.2.0)
   autoprefixer:
     specifier: 10.4.15
     version: 10.4.15(postcss@8.4.28)
@@ -621,6 +624,22 @@ packages:
     dependencies:
       '@typescript-eslint/types': 6.21.0
       eslint-visitor-keys: 3.4.3
+    dev: false
+
+  /@vercel/analytics@1.3.2(next@13.4.19)(react@18.2.0):
+    resolution: {integrity: sha512-n/Ws7skBbW+fUBMeg+jrT30+GP00jTHvCcL4fuVrShuML0uveEV/4vVUdvqEVnDgXIGfLm0GXW5EID2mCcRXhg==}
+    peerDependencies:
+      next: '>= 13'
+      react: ^18.0 || ^19.0 || ^19.0.0-rc
+    peerDependenciesMeta:
+      next:
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      next: 13.4.19(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      server-only: 0.0.1
     dev: false
 
   /@webassemblyjs/ast@1.12.1:
@@ -5119,6 +5138,10 @@ packages:
     resolution: {integrity: sha512-Saa1xPByTTq2gdeFZYLLo+RFE35NHZkAbqZeWNd3BpzppeVisAqpDjcp8dyf6uIvEqJRd46jemmyA4iFIeVk8g==}
     dependencies:
       randombytes: 2.1.0
+    dev: false
+
+  /server-only@0.0.1:
+    resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
     dev: false
 
   /set-blocking@2.0.0:
