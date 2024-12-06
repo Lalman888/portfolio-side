@@ -3,11 +3,8 @@ import { timeline } from "@/constants/timeline";
 import React from "react";
 import { Paragraph } from "./Paragraph";
 import { Heading } from "./Heading";
-import {
-  IconCheck,
-  IconCheckbox,
-  IconCircleCheckFilled,
-} from "@tabler/icons-react";
+import { IconCircleCheckFilled } from "@tabler/icons-react";
+import ReactMarkdown from "react-markdown";
 
 export const WorkHistory = () => {
   return (
@@ -17,7 +14,7 @@ export const WorkHistory = () => {
           className="flex md:flex-row flex-col space-y-10 md:space-y-0 space-x-10 my-20 relative"
           key={`timeline-${index}`}
         >
-          <Paragraph className="w-40">{item.date}</Paragraph>
+          <Paragraph className="w-52">{item.date}</Paragraph>
           <div>
             <Heading
               as="h5"
@@ -32,9 +29,13 @@ export const WorkHistory = () => {
               {item.description}
             </Paragraph>
 
-            {item.responsibilities.map((responsibility, index) => (
-              <Step key={responsibility}>{responsibility}</Step>
-            ))}
+            <div>
+              {item.responsibilities.map((responsibility, idx) => (
+                <Step key={idx}>
+                  <ReactMarkdown>{responsibility}</ReactMarkdown>
+                </Step>
+              ))}
+            </div>
           </div>
         </div>
       ))}
@@ -46,9 +47,7 @@ const Step = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex space-x-1 items-start my-2">
       <IconCircleCheckFilled className="h-3 w-4 mt-1 text-neutral-300" />
-      <Paragraph className="text-sm md:text-sm lg:text-sm">
-        {children}
-      </Paragraph>
+      <div className="text-sm md:text-sm lg:text-sm">{children}</div>
     </div>
   );
 };
