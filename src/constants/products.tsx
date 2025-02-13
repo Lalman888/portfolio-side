@@ -1,5 +1,47 @@
 export const products = [
   {
+    href: "https://ai.mastermind-marketing.com/",
+    title: "Mastermind Marketing",
+    description:
+      "Mastermind marketing is a conversational AI tool that helps insurance companies automate customer interactions, streamline claims processing, and improve customer satisfaction.",
+    thumbnail: "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app.png",
+    images: [
+      "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app.png",
+      "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app-2.png",
+    ],
+    stack: ["Nextjs", "Tailwindcss", "Part-Time Project", "Google Cloud"],
+    slug: "insurance-chatbot",
+    content: (
+      <div>
+        <p>
+          Insurance Chatbot is a conversational AI tool that helps insurance
+          companies automate customer interactions, streamline claims
+          processing, and improve customer satisfaction.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://www.dhilulu.com/",
+    title: "Dhilulu",
+    description:
+      "Dhilulu is a platform that provides USA related clinics and schools information.It let us know how many clinics and schools are there in USA per population in that area,state and country.",
+    thumbnail: "/images/Macbook-Air-www.dhilulu.com.png",
+    images: [
+      "/images/Macbook-Air-www.dhilulu.com.png",
+      "/images/Macbook-Air-www.dhilulu.com (1).png",
+    ],
+    stack: ["Nextjs", "Tailwindcss", "Part-Time Project", "Google Cloud"],
+    slug: "dhilulu",
+    content: (
+      <div>
+        <p>
+         Dhilulu is a platform that provides USA related clinics and schools information.It let us know how many clinics and schools are there in USA per population in that area,state and country.
+        </p>
+      </div>
+    ),
+  },
+  {
     href: "https://www.talkhealth.ai",
     title: "Talk Health AI",
     description:
@@ -21,28 +63,7 @@ export const products = [
       </div>
     ),
   },
-  {
-    href: "https://voice-ai-d-ly7dzrkywq-ue.a.run.app",
-    title: "Insurance Chatbot",
-    description:
-      "Insurance Chatbot is a conversational AI tool that helps insurance companies automate customer interactions, streamline claims processing, and improve customer satisfaction.",
-    thumbnail: "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app.png",
-    images: [
-      "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app.png",
-      "/images/Macbook-Air-voice-ai-d-ly7dzrkywq-ue.a.run.app-2.png",
-    ],
-    stack: ["Nextjs", "Tailwindcss", "Part-Time Project", "Google Cloud"],
-    slug: "insurance-chatbot",
-    content: (
-      <div>
-        <p>
-          Insurance Chatbot is a conversational AI tool that helps insurance
-          companies automate customer interactions, streamline claims
-          processing, and improve customer satisfaction.
-        </p>
-      </div>
-    ),
-  },
+  
   {
     href: "http://www.cotton2catwalk.com/",
     title: "Cotton 2 Catwalk",
