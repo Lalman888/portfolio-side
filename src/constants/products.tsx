@@ -22,6 +22,30 @@ export const products = [
     ),
   },
   {
+    href: "http://www.cotton2catwalk.com/",
+    title: "Phonics International",
+    description:
+      "Phonics International (PI) is a highly-organised, systematic and yet flexible online synthetic phonics programme (program). Designed for all ages and needs and suitable for anyone who wants to learn to read and spell.",
+    thumbnail: "/images/Macbook-Air-preview--learniverse-teacher-connect.lovable.app.png",
+    images: [
+      "/images/Macbook-Air-preview--learniverse-teacher-connect.lovable.app.png",
+      "/images/Macbook-Air-preview--learniverse-teacher-connect.lovable.app (1).png",
+      "/images/Macbook-Air-preview--learniverse-teacher-connect.lovable.app (2).png",
+    ],
+    stack: ["Reactjs","Supabase","Freelace Project"],
+    slug: "phonics-international",
+    content: (
+      <div>
+        <p>
+          Phonics International (PI) is a highly-organised, systematic and yet
+          flexible online synthetic phonics programme (program). Designed for
+          all ages and needs and suitable for anyone who wants to learn to read
+          and spell.
+        </p>
+      </div>
+    ),
+  },
+  {
     href: "https://www.dhilulu.com/",
     title: "Dhilulu",
     description:
@@ -64,30 +88,6 @@ export const products = [
     ),
   },
   
-  {
-    href: "http://www.cotton2catwalk.com/",
-    title: "Cotton 2 Catwalk",
-    description:
-      "We are a ‘Hong Kong - based’ sourcing company that partners with reputed and unique manufacturing set-ups, offering products in line with the latest trends and forecasts to the Brands. We are a strong team of professionals who understand Brand’s requirements and believe in ‘doing our best, with the utmost integrity’.",
-    thumbnail: "/images/Macbook-Air-www.cotton2catwalk.com-2.png",
-    images: [
-      "/images/Macbook-Air-www.cotton2catwalk.com.png",
-      "/images/Macbook-Air-www.cotton2catwalk.com-2.png",
-    ],
-    stack: ["Nextjs", "Tailwindcss", "Internship Project"],
-    slug: "cotton-2-catwalk",
-    content: (
-      <div>
-        <p>
-          We are a Hong Kong-based sourcing company partnering with reputed and
-          unique manufacturing set-ups. We offer products in line with the
-          latest trends and forecasts to brands, supported by a strong team of
-          professionals dedicated to understanding and meeting brand
-          requirements with the utmost integrity.
-        </p>
-      </div>
-    ),
-  },
   {
     href: "https://productionglue-frontend.vercel.app",
     title: "Production Glue",
@@ -155,6 +155,30 @@ export const products = [
           personalized visa assistance. Our mission is to simplify the visa
           application process and help travelers navigate the complexities of
           international travel.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "http://www.cotton2catwalk.com/",
+    title: "Cotton 2 Catwalk",
+    description:
+      "We are a ‘Hong Kong - based’ sourcing company that partners with reputed and unique manufacturing set-ups, offering products in line with the latest trends and forecasts to the Brands. We are a strong team of professionals who understand Brand’s requirements and believe in ‘doing our best, with the utmost integrity’.",
+    thumbnail: "/images/Macbook-Air-www.cotton2catwalk.com-2.png",
+    images: [
+      "/images/Macbook-Air-www.cotton2catwalk.com.png",
+      "/images/Macbook-Air-www.cotton2catwalk.com-2.png",
+    ],
+    stack: ["Nextjs", "Tailwindcss", "Internship Project"],
+    slug: "cotton-2-catwalk",
+    content: (
+      <div>
+        <p>
+          We are a Hong Kong-based sourcing company partnering with reputed and
+          unique manufacturing set-ups. We offer products in line with the
+          latest trends and forecasts to brands, supported by a strong team of
+          professionals dedicated to understanding and meeting brand
+          requirements with the utmost integrity.
         </p>
       </div>
     ),
