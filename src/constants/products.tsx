@@ -22,7 +22,7 @@ export const products = [
     ),
   },
   {
-    href: "http://www.cotton2catwalk.com/",
+    href: "https://preview--learniverse-teacher-connect.lovable.app/",
     title: "Phonics International",
     description:
       "Phonics International (PI) is a highly-organised, systematic and yet flexible online synthetic phonics programme (program). Designed for all ages and needs and suitable for anyone who wants to learn to read and spell.",
